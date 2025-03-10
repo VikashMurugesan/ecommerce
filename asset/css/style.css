@@ -1,0 +1,711 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    
+}
+.one{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    background-color: rgb(238,64,61);
+    align-items: center;
+    justify-content: center;  
+
+}
+.one p{
+    width: 100%;
+    height: 100%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    word-spacing: 2px;
+    
+}
+.two{
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius:40px;
+    
+    background-color:rgb(245,246,242);
+}
+.two .left{
+    width: 30%;
+    height: 90%;
+    /* background-color: orangered; */
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.two .left li{
+    display: flex;
+    word-spacing: 3px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.two .left li:hover{
+    color:red;
+}
+.two .right{
+width: 30%;
+height: 90%;
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+/* background-color: red; */
+}
+.two .right li{
+    display: flex;
+    justify-content: space-evenly;
+}
+.three{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    /* background-color: violet; */
+}
+.three .left{
+    width: 20%;
+    height: 100%;
+    /* background-color:blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.three .center{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: brown; */
+}
+.three .center li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.3s;
+}
+.three .center li:hover{
+    color: red;
+}
+.three .right{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: blue; */
+}
+.three .right span{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: 0.3s;
+    background-color: rgb(245,246,242);
+}
+.three .right span:hover{
+    background-color: red;
+}
+.three .right span i{
+    font-size: 18px;
+    color: black;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    justify-content: space-evenly;
+    /* background-color: red; */
+
+}
+.three .right span:hover i{
+    color:white;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    gap: 20px;
+    padding: 40px;
+    margin-top: 100px;
+    justify-content: space-between;
+    display: flex;
+    /* background-color: yellowgreen; */
+    }
+    
+    .four .left{
+    width: 20%;
+    height: 90%;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color:rgb(245,246,241);
+    }
+    .four .left1{
+        background-color: gray;
+        border-radius: 10px;
+        word-spacing: 1px;
+    }
+    
+    .four .left li{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+
+        justify-content: flex-start;
+        /* background-color: ; */
+        text-align: start;
+    
+    }
+    .four .right{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position:relative;
+        /* background-color: orangered; */
+        
+        }
+        
+    .four .right img{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+    .four .right .content{
+            position: absolute;
+            width: 60%;
+            height: 50%;
+            bottom: 30%;
+            gap: 10px;
+            line-height: 70px;
+            left: 90px;
+            
+        }
+        .four .right .content h1{
+            font-size: 40px;
+            width: 80%;
+            word-spacing: 5px;
+        }
+        .five{
+            width:100%;
+            height: 30%;
+            word-spacing: 1px;
+            display: flex;
+            color:black;
+            
+            font-size: 20px;
+            align-items: start;
+            justify-content: center;
+        
+        }
+        .five p{
+            width: 45%;
+            height: 30%;
+            display: flex;
+            align-items: center;
+        }
+        .six{
+            width: 100%;
+            height: 100%;
+        padding: 3%;
+            display: flex;
+        }
+        
+        .six .left{
+        width: 100%;
+        height: 90%;
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 50px;
+        
+        }
+        .six .left .photo{
+            width: 100%;
+            height:400px;
+            position: relative;
+        }
+        .six .left .photo h2{
+            position:absolute;
+            top:20px;
+            left:20px
+        }
+        .photo button{
+            position:absolute;
+            bottom:40px;
+            left:20px
+        }
+        .photo img{
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+        .six .left .content h2{
+            position: absolute;
+            top: 60px;
+            left: 70px; 
+            background-color: yellow;
+        }
+        .seven{
+            width: 100%;
+            height: 5%;
+            display: flex;
+            
+            align-items: start;
+            justify-content: center;
+        
+        
+        }
+        .seven h3{
+            width: 50%;
+            height: 10%;
+            display: flex;
+            font-size: 15px;
+            
+            color: black;
+            align-items: center;
+            justify-content: center;
+        
+        }
+        .eight{
+            width: 100%;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+         
+        }
+        .eight p{
+            width: 70%;
+            height: 10%;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+    .nine .left{
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+    
+    }
+    .nine .photo{
+        width: 100%;
+        height: 80%;
+        grid-gap: 40px;
+        object-fit: fill;
+        
+        display: flex;
+        flex-direction: column;
+    }
+    .nine .photo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .nine .left .content{
+        /* background-color: red; */
+ }
+    .nine img{
+        padding: 2%;
+    }
+    .ten img{
+        padding: 2%;
+    }
+    .eleven{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+.eleven h3{
+    height: 10%;
+    align-items: center;
+    }
+    .eleven p{
+    font-size: 40px;
+    }
+    .twelve{
+        width:100%;
+        height: 80%;
+        padding: 2%;
+    }
+    .twelve .left{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    
+    }
+    .twelve .left .photo{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .twelve .left .photo img{
+        width: 95%;
+        height: 90%;
+        /* background-color: aqua; */
+    }
+    .thirteen{
+        width: 100%;
+        height: 100%;
+        justify-content: space-evenly;
+        /* background-color: yellow; */
+        align-items: center;
+        display: flex;
+        
+    }
+    .thirteen .left{
+        width: 20%;
+        height: 60%;
+        background-color: rgb(243,243,243);
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        
+    }
+    .thirteen .left img{
+        width: 45%;
+        height: 45%;
+       
+    }
+    .thirteen .center{
+        width:50%;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        /* background-color: rgb(243,243,243); */
+        justify-content: flex-end;
+        
+    }
+    .thirteen .center img{
+        width: 30%;
+        height: 100%;
+        
+    }
+    .thirteen .right{
+        width: 20%;
+        height: 60%;
+        display: flex;
+        background-color: rgb(243,243,243);
+        align-items: center;
+        justify-content: end;
+        
+    }
+    .thirteen .right img{
+        width: 30%;
+        height: 60%;
+    
+    }
+    .fourteen{
+        width: 100%;
+        height: 65%;
+        display: flex;
+        align-items: center;
+        padding: 0.1%;
+        /* background-color: blue; */
+        }
+        .fourteen img{
+            width: 100%;
+            height: 65%;
+    }
+    .fifteen{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+    .fifteen h3{
+        width: 100%;
+        height: 40%;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .fifteen p{
+        width: 100%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .sixteen{
+        width: 100%;
+        /* height: 100%; */
+        display:flex;
+        /* flex-direction: row; */
+        justify-content: space-evenly;
+        /* background-color: red; */
+    }
+    .sixteen .left{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: orangered; */
+    }
+    .sixteen .left img{
+        width: 40%;
+        height: 100%;
+    }
+    .sixteen .left .content {
+        width: 100%;
+        height: 100%;
+        display:inline;
+        align-items: end;
+        justify-content: center;
+        /* background: violet; */
+    }
+    .sixteen .center{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: pink; */
+     }
+     .sixteen .right{
+        width: 50%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: blue; */
+    }
+    .seventeen{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* background-color: aqua; */
+    }
+    .seventeen .left{
+        width: 30%;
+        height: 100%;
+
+    }
+    .seventeen .center1{
+        display:flex
+    }
+    .seventeen .center2{
+        display:flex
+    }
+    .seventeen .right{
+        display:flex
+    }
+    .eighteen{
+        width: 100%;
+        display: flex;
+        /* height: 100%; */
+        /* background-color:aqua; */
+    }
+    .eighteen .left{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: orangered; */
+    }
+    .eighteen .bottom .one{
+        display: flex;
+        background-color: white;
+        /* color: red; */
+        gap: 20px;
+    }
+    .eighteen .bottom .two{
+        display: flex;
+        /* background-color: orangered; */
+        /* color: red; */
+        gap: 10px;
+
+    }
+    .eighteen .center{
+        width: 43%;
+        /* height: 100%; */
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-top: 30px;
+        gap: 20px;
+        /* background-color: green; */
+    }
+    .center span{
+        transition: 0.5s;
+    }
+.center span :hover{
+        color: red;
+    }
+    .eighteen .right{
+        width: 100%;
+        height: 100%;
+        /* background-color: orangered; */
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+    }
+    .eighteen .right1{
+        width: 25%;
+        display: flex;
+        padding-top: 28px;
+        flex-direction: column; 
+        gap: 15px;
+        /* background-color: aqua; */
+    }
+    .eighteen .right1 .one{
+        font-size: 25px;
+        font-weight: 10px;
+        color: black;
+        background-color: white;
+        justify-content: start;
+    }
+    .eighteen .right1 li{
+        list-style: none;
+        color: gray;
+        transition: 0.5s;
+    }
+    .eighteen .right1 li:hover{
+        color: black;
+    }
+    .eighteen .right2{
+        width: 25%;
+        display: flex;
+        padding-top: 28px;
+        flex-direction: column; 
+        gap: 15px;
+        /* background-color: aqua; */
+    }
+    .eighteen .right2 .one{
+        font-size: 22px;
+        font-weight: 10px;
+        color: black;
+        /* background-color: yellow; */
+        background-color: white;
+        justify-content: start;
+    }
+    .eighteen .right2 li{
+        list-style: none;
+        color: gray;
+        transition: 0.5s;
+    }
+    .eighteen .right2 li:hover{
+        color: black;
+    }
+    .eighteen .right3{
+        display: flex;
+        gap: 25px;
+        padding-top: 9px;
+        flex-direction: column;
+        align-items: start;
+        /* background-color: red; */
+
+    }
+    .eighteen .right3 button{
+       width: 80%;
+       height: 35px;
+       border-radius: 5px;
+       color: white;
+       background-color: red;
+       transition: 0.5s;
+    }
+    .eighteen .right3 button:hover{
+       background-color: black;
+    }
+    .eighteen .right3 p{
+        color: gray;
+    }
+    .nineteen{
+        display: flex;
+
+    }
+    .nineteen .left{
+        width: 20%;
+        height: 100%;rgb(139, 70, 70)
+        display:flex;
+        gap: 5px;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: blue; */
+    }
+    .nineteen .left span{
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        transition: 0.3s;
+        background-color: rgb(245,246,242);
+    }
+    .nineteen .left span:hover{
+        background-color: red;
+    }
+    .nineteen .left span i{
+        font-size: 18px;
+        color: black;
+        display: flex;
+        align-items: start;
+        transition: 0.3s;
+        justify-content: space-evenly;
+        /* background-color: red; */
+    
+    }
+    .nineteen .left span:hover i{
+        color:white;
+    }
+    .nineteen .center{
+     width: 60%;
+     height: 30%;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    }
+    .twenty{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        word-spacing: 5px;
+        background-color:gray;
+        
+    }
+    
+
+
+
+
+
+
+    
+
